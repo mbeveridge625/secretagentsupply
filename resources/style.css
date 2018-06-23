@@ -1,0 +1,39 @@
+html{
+  background-color: black;
+}
+
+/*Header styles*/
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 20px 200px;
+  color: white;
+}
+
+.logo h2{
+  margin-left: 15px;
+}
+
+.header-image{
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 400px;
+  background-image: url(./images/moto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
