@@ -3,6 +3,10 @@ html{
 }
 
 /*Header styles*/
+header{
+  display: flex;
+  flex-direction: column;
+}
 
 .logo{
   display: flex;
@@ -36,4 +40,22 @@ html{
   background-color: black;
   color: white;
   font-weight: bold;
+  margin-left: 200px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: crimson;
+  color: white;
+  width: auto;
+  height: 40px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  width: 75%;
 }
